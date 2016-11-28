@@ -37,24 +37,14 @@ body {
 	padding-right: 20px;
 }
 
-.header > div:nth-child(1) > div {
-	height: 50px;
-}
-
-.header > div:nth-child(1) > div > h1 {
+.header > div:nth-child(1) > div > h1{
+	font-size: 1.5rem;
 	margin-bottom: 0px;
-	height: 45px;
 	margin-top: 5px;
 }
 
 .header > div:nth-child(1) > div {
 	text-align: left;
-}
-
-.header > div:nth-child(1) > div > h2 {
-	margin-bottom: 0px;
-	height: 35px;
-	margin-top: 15px;
 }
 
 img {
@@ -80,6 +70,10 @@ img {
 }
 
 @media screen and (min-width: 992px) {
+
+	.header > div:nth-child(1) > div > h1 {
+		font-size: 2.5rem;
+	}
 
 	.header > div:nth-child(1) > div:nth-child(2) {
 		text-align: right;
